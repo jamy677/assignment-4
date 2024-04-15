@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #24e2c9;
+  }
+  .wrapper {
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .container {
+    width: 100%;
+    background-color: #0590a6;
+    padding: 50px 40px;
+    box-shadow: 0 20px 65px rgba(183, 6, 130, 0.5);
+    position: relative;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .container:after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 120%;
+    background-color: #e7e721;
+    z-index: -1;
+    top: -10%;
+    left: 10%;
+  }
+  .container p {
+    color: #fdd8d8;
+    line-height: 2;
+    font-size: 18px;
+  }
+  .container h3 {
+    color: #780505;
+    margin: 20px 0 60px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .container button {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #050304;
+    cursor: pointer;
+  }
+  
+  #display-student-info {
+    position: absolute;
+    bottom: 10px; 
+    right: 500px; 
+  }
